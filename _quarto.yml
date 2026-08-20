@@ -7,15 +7,18 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: stories/index.qmd
+        text: Stories
+      - href: music/index.qmd
+        text: Music
+      - href: games/index.qmd
+        text: Games
+      - href: about.qmd
+        text: About
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
-    toc: true
-
-
+    toc: false
 

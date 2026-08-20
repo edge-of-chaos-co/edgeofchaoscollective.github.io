@@ -1,16 +1,93 @@
 [
   {
+    "objectID": "games/index.html",
+    "href": "games/index.html",
+    "title": "Games",
+    "section": "",
+    "text": "Board games and interactive experiments from Edge of Chaos Collective."
+  },
+  {
+    "objectID": "stories/index.html",
+    "href": "stories/index.html",
+    "title": "Stories",
+    "section": "",
+    "text": "Fiction and books from Edge of Chaos Collective.\n\n\n\n\n\n\n\n\n\n\n\nExample Story\n\n\nA short synopsis will introduce the story here.\n\n\n\n\n\n\n\n\n\n\n\n\nStory Placeholder Two\n\n\nA short synopsis for the second story will go here.\n\n\n\n\n\n\n\n\n\n\n\n\nStory Placeholder Three\n\n\nA short synopsis for the third story will go here.\n\n\n\n\n\n\n\n\n\n\n\n\nStory Placeholder Four\n\n\nA short synopsis for the fourth story will go here.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "stories/story-placeholder-three/index.html",
+    "href": "stories/story-placeholder-three/index.html",
+    "title": "Story Placeholder Three",
+    "section": "",
+    "text": "Placeholder story cover\n\n\n\n\n\nStory\n\n\n\n\nA short synopsis for the third story will go here.\n\n\nEPUB — coming soon PDF — coming soon"
+  },
+  {
+    "objectID": "stories/story-placeholder-three/index.html#about-the-story",
+    "href": "stories/story-placeholder-three/index.html#about-the-story",
+    "title": "Story Placeholder Three",
+    "section": "About the story",
+    "text": "About the story\nLonger body copy will go here."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "Edge of Chaos Collective is a home for stories, music, games, and other fun and creative experiments."
+  },
+  {
+    "objectID": "music/index.html",
+    "href": "music/index.html",
+    "title": "Music",
+    "section": "",
+    "text": "Music and sound projects from Edge of Chaos Collective."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Edge of Chaos Collective",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Fiction, music, games, and experiments from the edge of order.\nExplore stories, music, and games."
+  },
+  {
+    "objectID": "stories/story-placeholder-two/index.html",
+    "href": "stories/story-placeholder-two/index.html",
+    "title": "Story Placeholder Two",
+    "section": "",
+    "text": "Placeholder story cover\n\n\n\n\n\nStory\n\n\n\n\nA short synopsis for the second story will go here.\n\n\nEPUB — coming soon PDF — coming soon"
+  },
+  {
+    "objectID": "stories/story-placeholder-two/index.html#about-the-story",
+    "href": "stories/story-placeholder-two/index.html#about-the-story",
+    "title": "Story Placeholder Two",
+    "section": "About the story",
+    "text": "About the story\nLonger body copy will go here."
+  },
+  {
+    "objectID": "stories/story-placeholder-four/index.html",
+    "href": "stories/story-placeholder-four/index.html",
+    "title": "Story Placeholder Four",
+    "section": "",
+    "text": "Placeholder story cover\n\n\n\n\n\nStory\n\n\n\n\nA short synopsis for the fourth story will go here.\n\n\nEPUB — coming soon PDF — coming soon"
+  },
+  {
+    "objectID": "stories/story-placeholder-four/index.html#about-the-story",
+    "href": "stories/story-placeholder-four/index.html#about-the-story",
+    "title": "Story Placeholder Four",
+    "section": "About the story",
+    "text": "About the story\nLonger body copy will go here."
+  },
+  {
+    "objectID": "stories/example-story/index.html",
+    "href": "stories/example-story/index.html",
+    "title": "Example Story",
+    "section": "",
+    "text": "Placeholder cover for Example Story\n\n\n\n\n\nStory\n\n\n\n\nA short synopsis will introduce the story here.\n\n\nEPUB — coming soon PDF — coming soon"
+  },
+  {
+    "objectID": "stories/example-story/index.html#about-the-story",
+    "href": "stories/example-story/index.html#about-the-story",
+    "title": "Example Story",
+    "section": "About the story",
+    "text": "About the story\nLonger body copy about the work will go here. This space can hold an excerpt, publication details, or notes from the author without changing the page structure."
   }
 ]

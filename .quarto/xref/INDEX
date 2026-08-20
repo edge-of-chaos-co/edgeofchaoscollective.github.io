@@ -4,5 +4,26 @@
   },
   "about.qmd": {
     "about.html": "28f14325"
+  },
+  "music/index.qmd": {
+    "index.html": "dc85e34d"
+  },
+  "stories/index.qmd": {
+    "index.html": "3ae5ecef"
+  },
+  "games/index.qmd": {
+    "index.html": "875cdc00"
+  },
+  "stories/example-story/index.qmd": {
+    "index.html": "31511c47"
+  },
+  "stories/story-placeholder-two/index.qmd": {
+    "index.html": "a77bf990"
+  },
+  "stories/story-placeholder-three/index.qmd": {
+    "index.html": "2785fe2f"
+  },
+  "stories/story-placeholder-four/index.qmd": {
+    "index.html": "2e061b32"
   }
 }

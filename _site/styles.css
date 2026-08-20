@@ -1,1 +1,221 @@
-/* css styles */
+:root {
+  --eoc-background: #f5f2ea;
+  --eoc-surface: #fffdf8;
+  --eoc-text: #20201e;
+  --eoc-muted: #67645e;
+  --eoc-border: #d8d2c6;
+  --eoc-accent: #7a3028;
+  --eoc-content-width: 72rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--eoc-background);
+  color: var(--eoc-text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.65;
+}
+
+a {
+  color: var(--eoc-accent);
+  text-underline-offset: 0.18em;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--eoc-text);
+}
+
+.navbar {
+  background: var(--eoc-background);
+  border-bottom: 1px solid var(--eoc-border);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: var(--eoc-text);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: var(--eoc-accent);
+}
+
+#quarto-content {
+  width: min(100% - 2rem, var(--eoc-content-width));
+  margin-inline: auto;
+}
+
+main {
+  padding-block: clamp(2.5rem, 7vw, 6rem);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+p {
+  max-width: 68ch;
+}
+
+::selection {
+  background: var(--eoc-accent);
+  color: var(--eoc-surface);
+}
+
+/* Stories portfolio */
+
+.stories-intro {
+  color: var(--eoc-muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  margin-bottom: 3rem;
+}
+
+.stories-gallery .list.grid {
+  display: grid;
+  gap: clamp(2rem, 5vw, 4.5rem) clamp(1.25rem, 3vw, 2.5rem);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.stories-gallery .list.grid > * {
+  grid-column: auto;
+}
+
+.stories-gallery .quarto-grid-item {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+.stories-gallery .thumbnail-image {
+  aspect-ratio: 2 / 3;
+  border-radius: 0;
+  box-shadow: 0 1rem 2.5rem rgb(32 32 30 / 14%);
+  height: auto !important;
+  object-fit: cover;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  width: 100%;
+}
+
+.stories-gallery .quarto-grid-item:hover .thumbnail-image {
+  box-shadow: 0 1.25rem 3rem rgb(32 32 30 / 20%);
+  transform: translateY(-0.25rem);
+}
+
+.stories-gallery .card-body {
+  padding: 1.25rem 0 0;
+}
+
+.stories-gallery .listing-title {
+  color: var(--eoc-text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  line-height: 1.2;
+}
+
+.stories-gallery .listing-description {
+  color: var(--eoc-muted);
+  margin-top: 0.65rem;
+}
+
+.story-hero {
+  align-items: center;
+  display: grid;
+  gap: clamp(2rem, 7vw, 6rem);
+  grid-template-columns: minmax(15rem, 0.8fr) minmax(18rem, 1.2fr);
+  margin-bottom: clamp(3rem, 8vw, 7rem);
+}
+
+.story-page #title-block-header {
+  display: none;
+}
+
+.story-cover img {
+  aspect-ratio: 2 / 3;
+  box-shadow: 0 1.5rem 4rem rgb(32 32 30 / 20%);
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.story-introduction h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.75rem, 7vw, 6.5rem);
+  margin-block: 0.25rem 1.25rem;
+}
+
+.story-kicker {
+  color: var(--eoc-accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.story-synopsis {
+  color: var(--eoc-muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.2rem, 2.5vw, 1.65rem);
+}
+
+.story-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.story-download {
+  border: 1px solid var(--eoc-text);
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 0.75rem 1rem;
+  text-transform: uppercase;
+}
+
+.story-download.is-placeholder {
+  color: var(--eoc-muted);
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+.story-body {
+  border-top: 1px solid var(--eoc-border);
+  margin-left: auto;
+  max-width: 48rem;
+  padding-top: 2rem;
+}
+
+.story-body h2 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+@media (max-width: 700px) {
+  .stories-gallery .list.grid {
+    grid-template-columns: 1fr;
+  }
+
+  .story-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .story-cover {
+    max-width: 24rem;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 960px) {
+  .stories-gallery .list.grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

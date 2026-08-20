@@ -2,6 +2,6 @@
 title: "Edge of Chaos Collective"
 ---
 
-This is a Quarto website.
+Fiction, music, games, and experiments from the edge of order.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Explore [stories](stories/index.qmd), [music](music/index.qmd), and [games](games/index.qmd).

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1800" role="img" aria-labelledby="title description">
+  <title id="title">Example Story placeholder cover</title>
+  <desc id="description">A simple abstract placeholder for future cover art.</desc>
+  <rect width="1200" height="1800" fill="#272724"/>
+  <path d="M0 1180 1200 610v1190H0Z" fill="#7a3028"/>
+  <circle cx="830" cy="440" r="210" fill="none" stroke="#f5f2ea" stroke-width="10"/>
+  <text x="100" y="1350" fill="#f5f2ea" font-family="Georgia, serif" font-size="112">EXAMPLE</text>
+  <text x="100" y="1470" fill="#f5f2ea" font-family="Georgia, serif" font-size="112">STORY</text>
+  <text x="105" y="1580" fill="#f5f2ea" font-family="system-ui, sans-serif" font-size="34" letter-spacing="8">COVER PLACEHOLDER</text>
+</svg>

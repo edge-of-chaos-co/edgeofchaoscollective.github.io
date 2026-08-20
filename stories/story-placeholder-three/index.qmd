@@ -1,0 +1,34 @@
+---
+title: "Story Placeholder Three"
+description: "A short synopsis for the third story will go here."
+image: ../example-story/cover.svg
+order: 3
+format:
+  html:
+    body-classes: story-page
+---
+
+::: {.story-hero}
+::: {.story-cover}
+![Placeholder story cover](../example-story/cover.svg)
+:::
+
+::: {.story-introduction}
+<p class="story-kicker">Story</p>
+
+# Story Placeholder Three
+
+<p class="story-synopsis">A short synopsis for the third story will go here.</p>
+
+::: {.story-downloads role="group" aria-label="Story downloads"}
+<span class="story-download is-placeholder" aria-disabled="true">EPUB — coming soon</span>
+<span class="story-download is-placeholder" aria-disabled="true">PDF — coming soon</span>
+:::
+:::
+:::
+
+::: {.story-body}
+## About the story
+
+Longer body copy will go here.
+:::

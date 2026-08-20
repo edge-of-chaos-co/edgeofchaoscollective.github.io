@@ -1,0 +1,21 @@
+---
+title: "Stories"
+description: "Fiction and books from Edge of Chaos Collective."
+listing:
+  id: stories-gallery
+  contents: "*/index.qmd"
+  type: grid
+  fields: [image, title, description]
+  grid-columns: 3
+  sort: "order"
+  filter-ui: false
+  categories: false
+  page-size: 12
+---
+
+::: {.stories-intro}
+Fiction and books from Edge of Chaos Collective.
+:::
+
+::: {#stories-gallery .stories-gallery}
+:::
