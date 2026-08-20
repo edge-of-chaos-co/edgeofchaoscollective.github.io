@@ -1,0 +1,33 @@
+::: {.list .book-showcase}
+
+<% for (const item of items) {
+  const epubPath = item['eoc-download-url'];
+  const pdfPath = item['eoc-pdf-url'];
+%>
+
+```{=html}
+<article class="book-showcase-item <%= metadataAttrs(item) %>">
+  <a class="book-showcase-cover" href="<%- item.path %>">
+    <img src="<%- item.image %>" alt="Cover of <%- item.title %>">
+  </a>
+  <div class="book-showcase-copy">
+    <h3><a href="<%- item.path %>"><%= item.title %></a></h3>
+    <p><%= item.description %></p>
+    <div class="book-showcase-actions">
+      <a class="book-detail-link" href="<%- item.path %>">About the book <span aria-hidden="true">↗</span></a>
+      <% if (epubPath) { %>
+      <a class="story-download" href="<%- epubPath %>" download>Download EPUB</a>
+      <% } else { %>
+      <span class="story-download is-placeholder" aria-disabled="true"><%= item.availability || 'Coming soon' %></span>
+      <% } %>
+      <% if (pdfPath) { %>
+      <a class="story-download" href="<%- pdfPath %>" download>Download PDF</a>
+      <% } %>
+    </div>
+  </div>
+</article>
+```
+
+<% } %>
+
+:::

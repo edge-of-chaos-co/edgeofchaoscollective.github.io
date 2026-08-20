@@ -1,0 +1,37 @@
+---
+title: "The Chronicles of Eylis — Part 1"
+description: "The first part of The Chronicles of Eylis written by TJ Parmer."
+image: cover.png
+eoc-download-url: "/stories/The%20Chronicles%20of%20Eylis%20p1/The%20Chronicles%20of%20Eylis%20Part%201.epub"
+eoc-pdf-url: "/stories/The%20Chronicles%20of%20Eylis%20p1/The%20Chronicles%20of%20Eylis%20Part%201.pdf"
+order: 1
+format:
+  html:
+    body-classes: story-page
+---
+
+::: {.story-hero}
+::: {.story-cover}
+![Cover of The Chronicles of Eylis Part 1](cover.png)
+:::
+
+::: {.story-introduction}
+<p class="story-kicker">Story</p>
+
+# The Chronicles of Eylis
+
+<p class="story-synopsis">Part 1 of <em>The Chronicles of Eylis</em> written by TJ Parmer.</p>
+
+::: {.story-downloads role="group" aria-label="Story downloads"}
+[Download EPUB](The%20Chronicles%20of%20Eylis%20Part%201.epub){.story-download download="The Chronicles of Eylis Part 1.epub"}
+[Download PDF](The%20Chronicles%20of%20Eylis%20Part%201.pdf){.story-download download="The Chronicles of Eylis Part 1.pdf"}
+:::
+:::
+:::
+
+::: {.story-body}
+## About the story
+
+An archaeologist, Carl Eylis, receives an extraordinary offer from a young researcher: the chance of a lifetime to uncover and publish something connected to one of the Seven Sights.
+But what begins as an academic opportunity quickly raises more questions than answers. Will the journey lead to something? Or nowhere at all? Can Eylis comprehend what they are about to discover?  Can he trust Oliver, the ambitious young researcher who brought him into it? And what is the truth behind the Seven Sights, and their connection to the *smallworld*?
+:::

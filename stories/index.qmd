@@ -1,12 +1,14 @@
 ---
 title: "Stories"
-description: "Fiction and books from Edge of Chaos Collective."
+description: "Fiction and books written by TJ Parmer."
 listing:
   id: stories-gallery
-  contents: "*/index.qmd"
-  type: grid
-  fields: [image, title, description]
-  grid-columns: 3
+  contents:
+    - "The Chronicles of Eylis p1/index.qmd"
+    - "The Chronicles of Eylis p2/index.qmd"
+  type: custom
+  template: _book-gallery.ejs
+  fields: [image, title, description, order, eoc-download-url, eoc-pdf-url, availability]
   sort: "order"
   filter-ui: false
   categories: false
@@ -17,5 +19,5 @@ listing:
 Fiction and books from Edge of Chaos Collective.
 :::
 
-::: {#stories-gallery .stories-gallery}
+::: {#stories-gallery .stories-gallery .stories-book-showcase}
 :::

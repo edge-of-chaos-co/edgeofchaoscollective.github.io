@@ -1,0 +1,34 @@
+---
+title: "The Chronicles of Eylis — Part 2"
+description: "The forthcoming second part of The Chronicles of Eylis written by TJ Parmer."
+image: cover.png
+availability: "EPUB — coming soon"
+order: 2
+format:
+  html:
+    body-classes: story-page
+---
+
+::: {.story-hero}
+::: {.story-cover}
+![Cover of The Chronicles of Eylis Part 2](cover.png)
+:::
+
+::: {.story-introduction}
+<p class="story-kicker">Story</p>
+
+# The Chronicles of Eylis
+
+<p class="story-synopsis">Part 2 of <em>The Chronicles of Eylis</em> is coming soon.</p>
+
+::: {.story-downloads role="group" aria-label="Story downloads"}
+<span class="story-download is-placeholder" aria-disabled="true">EPUB — coming soon</span>
+:::
+:::
+:::
+
+::: {.story-body}
+## About the story
+
+Coming soon...
+:::

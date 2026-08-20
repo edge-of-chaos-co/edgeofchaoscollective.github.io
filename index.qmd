@@ -1,7 +1,72 @@
 ---
 title: "Edge of Chaos Collective"
+description: "Stories, music, games, and other fun and creative experiments from the smallworld."
+format:
+  html:
+    body-classes: home-page
+listing:
+  id: home-books
+  contents:
+    - "stories/The Chronicles of Eylis p1/index.qmd"
+    - "stories/The Chronicles of Eylis p2/index.qmd"
+  type: custom
+  template: stories/_book-gallery.ejs
+  fields: [image, title, description, order, eoc-download-url, eoc-pdf-url, availability]
+  sort: "order"
+  filter-ui: false
+  categories: false
 ---
 
-Fiction, music, games, and experiments from the edge of order.
+::: {.home-hero}
+::: {.home-hero-visual}
+![Edge of Chaos Collective](images/main_cat.svg){.home-logo}
+:::
 
-Explore [stories](stories/index.qmd), [music](music/index.qmd), and [games](games/index.qmd).
+::: {.home-hero-copy}
+<p class="home-kicker">Escape to </p>
+
+# The Smallworld 
+
+<p class="home-intro">Edge of Chaos Collective is a home for stories, music, games, and creative experiments from the smallworld.</p>
+
+[Read stories <span aria-hidden="true">↗</span>](stories/index.qmd){.home-primary-link}
+:::
+:::
+
+::: {.home-books-section}
+<p class="home-kicker">Now in Smallworld</p>
+
+## The Chronicles of Eylis
+
+::: {#home-books .home-book-showcase}
+:::
+:::
+
+<a class="home-work home-work-featured" href="stories/index.html">
+  <span class="home-work-number">01</span>
+  <span class="home-work-text">
+    <span class="home-work-title">Stories</span>
+    <span class="home-work-description">Novels and short stories.</span>
+  </span>
+  <span class="home-work-arrow" aria-hidden="true">↗</span>
+</a>
+
+::: {.home-work-secondary}
+<a class="home-work" href="music/index.html">
+  <span class="home-work-number">02</span>
+  <span class="home-work-text">
+    <span class="home-work-title">Music</span>
+    <span class="home-work-description">Music and sound projects.</span>
+  </span>
+  <span class="home-work-arrow" aria-hidden="true">↗</span>
+</a>
+
+<a class="home-work" href="games/index.html">
+  <span class="home-work-number">03</span>
+  <span class="home-work-text">
+    <span class="home-work-title">Games</span>
+    <span class="home-work-description">Board games.</span>
+  </span>
+  <span class="home-work-arrow" aria-hidden="true">↗</span>
+</a>
+:::

@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Stories, music, games, and other fun and creative experiments from the smallworld.">
 
 <title>Edge of Chaos Collective</title>
 <style>
@@ -33,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -70,12 +73,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-home-books .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-order','listing-eoc-download-url','listing-eoc-pdf-url','listing-availability',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-title","listing-description","listing-image","listing-eoc-download-url","listing-eoc-pdf-url","listing-order","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-availability"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-home-books'] = new List('listing-home-books', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed home-page fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -132,6 +193,11 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Edge of Chaos Collective</h1>
 </div>
 
+<div>
+  <div class="description">
+    Stories, music, games, and other fun and creative experiments from the smallworld.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -146,8 +212,81 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Fiction, music, games, and experiments from the edge of order.</p>
-<p>Explore <a href="./stories/index.html">stories</a>, <a href="./music/index.html">music</a>, and <a href="./games/index.html">games</a>.</p>
+<div class="home-hero">
+<div class="home-hero-visual">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/main_cat.svg" class="home-logo img-fluid figure-img"></p>
+<figcaption>Edge of Chaos Collective</figcaption>
+</figure>
+</div>
+</div>
+<div class="home-hero-copy">
+<p class="home-kicker">
+Escape to
+</p>
+<section id="the-smallworld" class="level1">
+<h1>The Smallworld</h1>
+<p class="home-intro">
+Edge of Chaos Collective is a home for stories, music, games, and creative experiments from the smallworld.
+</p>
+<p><a href="./stories/index.html" class="home-primary-link">Read stories <span aria-hidden="true">↗</span></a></p>
+</section>
+</div>
+</div>
+<div class="home-books-section">
+<p class="home-kicker">
+Now in Smallworld
+</p>
+<section id="the-chronicles-of-eylis" class="level2">
+<h2 class="anchored" data-anchor-id="the-chronicles-of-eylis">The Chronicles of Eylis</h2>
+<div id="listing-home-books" class="home-book-showcase quarto-listing quarto-listing-container-custom">
+<div class="list book-showcase">
+<article class="book-showcase-item data-index='0' data-listing-file-modified-sort='1787210449984' data-listing-reading-time-sort='1' data-listing-word-count-sort='133'">
+  <a class="book-showcase-cover" href="./stories/The Chronicles of Eylis p1/index.html">
+    <img src="./stories/The Chronicles of Eylis p1/cover.png" alt="Cover of The Chronicles of Eylis — Part 1">
+  </a>
+  <div class="book-showcase-copy">
+    <h3 class="anchored"><a href="./stories/The Chronicles of Eylis p1/index.html">The Chronicles of Eylis — Part 1</a></h3>
+    <p>The first part of The Chronicles of Eylis written by TJ Parmer.</p>
+    <div class="book-showcase-actions">
+      <a class="book-detail-link" href="./stories/The Chronicles of Eylis p1/index.html">About the book <span aria-hidden="true">↗</span></a>
+      
+      <a class="story-download" href="./stories/The Chronicles of Eylis p1/The Chronicles of Eylis Part 1.epub" download="">Download EPUB</a>
+      
+      
+      <a class="story-download" href="./stories/The Chronicles of Eylis p1/The Chronicles of Eylis Part 1.pdf" download="">Download PDF</a>
+      
+    </div>
+  </div>
+</article>
+<article class="book-showcase-item data-index='1' data-listing-file-modified-sort='1787210010020' data-listing-reading-time-sort='1' data-listing-word-count-sort='37'">
+  <a class="book-showcase-cover" href="./stories/The Chronicles of Eylis p2/index.html">
+    <img src="./stories/The Chronicles of Eylis p2/cover.png" alt="Cover of The Chronicles of Eylis — Part 2">
+  </a>
+  <div class="book-showcase-copy">
+    <h3 class="anchored"><a href="./stories/The Chronicles of Eylis p2/index.html">The Chronicles of Eylis — Part 2</a></h3>
+    <p>The forthcoming second part of The Chronicles of Eylis written by TJ Parmer.</p>
+    <div class="book-showcase-actions">
+      <a class="book-detail-link" href="./stories/The Chronicles of Eylis p2/index.html">About the book <span aria-hidden="true">↗</span></a>
+      
+      <span class="story-download is-placeholder" aria-disabled="true">EPUB — coming soon</span>
+      
+      
+    </div>
+  </div>
+</article>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+</div>
+<p><a class="home-work home-work-featured" href="stories/index.html"> <span class="home-work-number">01</span> <span class="home-work-text"> <span class="home-work-title">Stories</span> <span class="home-work-description">Novels and short stories.</span> </span> <span class="home-work-arrow" aria-hidden="true">↗</span> </a></p>
+<div class="home-work-secondary">
+<p><a class="home-work" href="music/index.html"> <span class="home-work-number">02</span> <span class="home-work-text"> <span class="home-work-title">Music</span> <span class="home-work-description">Music and sound projects.</span> </span> <span class="home-work-arrow" aria-hidden="true">↗</span> </a></p>
+<p><a class="home-work" href="games/index.html"> <span class="home-work-number">03</span> <span class="home-work-text"> <span class="home-work-title">Games</span> <span class="home-work-description">Board games.</span> </span> <span class="home-work-arrow" aria-hidden="true">↗</span> </a></p>
+</div>
+
 
 
 

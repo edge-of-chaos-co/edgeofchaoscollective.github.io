@@ -25,5 +25,11 @@
   },
   "stories/story-placeholder-four/index.qmd": {
     "index.html": "2e061b32"
+  },
+  "stories/The Chronicles of Eylis p1/index.qmd": {
+    "index.html": "72a85fdb"
+  },
+  "stories/The Chronicles of Eylis p2/index.qmd": {
+    "index.html": "8ae7cbaf"
   }
 }

@@ -22,7 +22,7 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 1440 
+   <path style="fill:#1c1916" d="M 0 1440 
 L 1440 1440 
 L 1440 0 
 L 0 0 
@@ -30,7 +30,7 @@ z
 "/>
   </g>
   <g id="patch_2">
-   <path d="M 10.8 1429.2 
+   <path style="fill:#1c1916" d="M 10.8 1429.2 
 L 1429.2 1429.2 
 L 1429.2 10.8 
 L 10.8 10.8 

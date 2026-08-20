@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Fiction and books from Edge of Chaos Collective.">
+<meta name="description" content="Fiction and books written by TJ Parmer.">
 
 <title>Stories – Edge of Chaos Collective</title>
 <style>
@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description','listing-order','listing-eoc-download-url','listing-eoc-pdf-url','listing-availability',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-title","listing-description","listing-image","listing-eoc-download-url","listing-eoc-pdf-url","listing-order","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-availability"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -195,7 +195,7 @@ window.Quarto = {
 
 <div>
   <div class="description">
-    Fiction and books from Edge of Chaos Collective.
+    Fiction and books written by TJ Parmer.
   </div>
 </div>
 
@@ -215,72 +215,42 @@ window.Quarto = {
 <div class="stories-intro">
 <p>Fiction and books from Edge of Chaos Collective.</p>
 </div>
-<div id="listing-stories-gallery" class="stories-gallery quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1787204231751" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
-<a href="../stories/example-story/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../stories/example-story/cover.svg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Example Story
-</h5>
-<div class="card-text listing-description delink">
-<p>A short synopsis will introduce the story here.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1787204231921" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
-<a href="../stories/story-placeholder-two/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../stories/example-story/cover.svg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Story Placeholder Two
-</h5>
-<div class="card-text listing-description delink">
-<p>A short synopsis for the second story will go here.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1787204232093" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
-<a href="../stories/story-placeholder-three/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../stories/example-story/cover.svg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Story Placeholder Three
-</h5>
-<div class="card-text listing-description delink">
-<p>A short synopsis for the third story will go here.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1787204232277" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
-<a href="../stories/story-placeholder-four/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../stories/example-story/cover.svg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Story Placeholder Four
-</h5>
-<div class="card-text listing-description delink">
-<p>A short synopsis for the fourth story will go here.</p>
-</div>
-</div>
-</div></a>
-</div>
+<div id="listing-stories-gallery" class="stories-gallery stories-book-showcase quarto-listing quarto-listing-container-custom">
+<div class="list book-showcase">
+<article class="book-showcase-item data-index='0' data-listing-file-modified-sort='1787210449984' data-listing-reading-time-sort='1' data-listing-word-count-sort='133'">
+  <a class="book-showcase-cover" href="../stories/The Chronicles of Eylis p1/index.html">
+    <img src="../stories/The Chronicles of Eylis p1/cover.png" alt="Cover of The Chronicles of Eylis — Part 1">
+  </a>
+  <div class="book-showcase-copy">
+    <h3 class="anchored"><a href="../stories/The Chronicles of Eylis p1/index.html">The Chronicles of Eylis — Part 1</a></h3>
+    <p>The first part of The Chronicles of Eylis written by TJ Parmer.</p>
+    <div class="book-showcase-actions">
+      <a class="book-detail-link" href="../stories/The Chronicles of Eylis p1/index.html">About the book <span aria-hidden="true">↗</span></a>
+      
+      <a class="story-download" href="../stories/The Chronicles of Eylis p1/The Chronicles of Eylis Part 1.epub" download="">Download EPUB</a>
+      
+      
+      <a class="story-download" href="../stories/The Chronicles of Eylis p1/The Chronicles of Eylis Part 1.pdf" download="">Download PDF</a>
+      
+    </div>
+  </div>
+</article>
+<article class="book-showcase-item data-index='1' data-listing-file-modified-sort='1787210010020' data-listing-reading-time-sort='1' data-listing-word-count-sort='37'">
+  <a class="book-showcase-cover" href="../stories/The Chronicles of Eylis p2/index.html">
+    <img src="../stories/The Chronicles of Eylis p2/cover.png" alt="Cover of The Chronicles of Eylis — Part 2">
+  </a>
+  <div class="book-showcase-copy">
+    <h3 class="anchored"><a href="../stories/The Chronicles of Eylis p2/index.html">The Chronicles of Eylis — Part 2</a></h3>
+    <p>The forthcoming second part of The Chronicles of Eylis written by TJ Parmer.</p>
+    <div class="book-showcase-actions">
+      <a class="book-detail-link" href="../stories/The Chronicles of Eylis p2/index.html">About the book <span aria-hidden="true">↗</span></a>
+      
+      <span class="story-download is-placeholder" aria-disabled="true">EPUB — coming soon</span>
+      
+      
+    </div>
+  </div>
+</article>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
