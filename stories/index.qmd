@@ -1,6 +1,6 @@
 ---
 title: "Stories"
-description: "Fiction and books written by TJ Parmer."
+description: "Novels and short stories written by TJ Parmer."
 listing:
   id: stories-gallery
   contents:
@@ -16,7 +16,7 @@ listing:
 ---
 
 ::: {.stories-intro}
-Fiction and books from Edge of Chaos Collective.
+Novels and short stories from Edge of Chaos Collective.
 :::
 
 ::: {#stories-gallery .stories-gallery .stories-book-showcase}
