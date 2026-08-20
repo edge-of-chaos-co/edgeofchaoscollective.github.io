@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/stories/The Chronicles of Eylis p1/index.html",
+      "/stories/The Chronicles of Eylis p2/index.html"
+    ]
+  },
+  {
+    "listing": "/stories/index.html",
+    "items": [
+      "/stories/The Chronicles of Eylis p1/index.html",
+      "/stories/The Chronicles of Eylis p2/index.html"
+    ]
+  }
+]
