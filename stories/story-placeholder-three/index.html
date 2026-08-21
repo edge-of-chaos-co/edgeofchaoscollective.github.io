@@ -257,7 +257,7 @@ A short synopsis for the third story will go here.
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/edge-of-chaos-co\.github\.io\/edgeofchaoscollective\.github\.io\/");
+        var filterRegex = new RegExp("https:\/\/edgeofchaoscollective\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
