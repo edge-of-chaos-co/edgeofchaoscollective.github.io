@@ -141,34 +141,10 @@ p {
   position: relative;
 }
 
-.home-hero::after {
-  border: 1px solid rgb(198 111 61 / 28%);
-  border-radius: 50%;
-  content: "";
-  height: clamp(7rem, 16vw, 14rem);
-  pointer-events: none;
-  position: absolute;
-  right: -7%;
-  top: 9%;
-  width: clamp(7rem, 16vw, 14rem);
-}
-
 .home-hero-visual {
   margin-left: max(-1rem, -3vw);
   overflow: hidden;
   position: relative;
-}
-
-.home-hero-visual::before {
-  background: var(--eoc-blue);
-  content: "";
-  height: 1px;
-  left: -20vw;
-  opacity: 0.8;
-  position: absolute;
-  top: 53%;
-  transform: rotate(-7deg);
-  width: 75%;
 }
 
 .home-logo {
@@ -318,19 +294,6 @@ p {
   border-bottom: 1px solid var(--eoc-dark-line);
   min-height: clamp(14rem, 30vw, 24rem);
   position: relative;
-}
-
-.home-work-featured::before {
-  background: var(--eoc-blue);
-  content: "";
-  height: 1px;
-  left: 3rem;
-  opacity: 0.75;
-  position: absolute;
-  right: 15%;
-  top: 40%;
-  transform: rotate(-3deg);
-  transform-origin: left;
 }
 
 .home-work-featured .home-work-title {

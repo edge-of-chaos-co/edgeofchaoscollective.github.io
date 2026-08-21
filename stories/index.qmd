@@ -15,9 +15,9 @@ listing:
   page-size: 12
 ---
 
-::: {.stories-intro}
+<!-- ::: {.stories-intro}
 Novels and short stories from Edge of Chaos Collective.
-:::
+::: -->
 
 ::: {#stories-gallery .stories-gallery .stories-book-showcase}
 :::
